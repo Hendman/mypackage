@@ -1,0 +1,38 @@
+# Mypackage
+
+Mypackage is a Python library for sorting lists or array like objects in descending order by top ```n```.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install mypackage.
+
+```bash
+pip install mypackage
+```
+
+## Usage
+
+```python
+import mypackage
+
+# returns [8, 7, 4]
+top_n([8, 3, 2, 7, 4], 3)
+
+# returns [8, 7, 4]
+top_n([8, 0, -1, 7, 4], 3)
+    assert myModule.
+
+# returns [12, 10]
+top_n([10, 1, 12, 9, 2], 2)
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
